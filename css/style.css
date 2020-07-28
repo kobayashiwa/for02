@@ -33,23 +33,21 @@ ul, li {
 	display: flex;
 	flex-wrap: wrap;
 }
+.List-item {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.detail {
+	width: 70%;
+}
 
 /**
 
 
 
-header .container {
-	display: flex;
-	flex-wrap: wrap;
-	border-bottom: 1px solid #E2E7EA;
-}
-.header-left {
-	width: 40%;
-	text-align: left;
-	line-height: 130px;
-	font-size: 24px;
-	font-weight: 300;
-}
+
+
 .header-left .search {
 	padding-right: 16px;
 	height: 16px;
