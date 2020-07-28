@@ -32,14 +32,24 @@ ul, li {
 .list {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: -48px;
 }
 .List-item {
 	width: 50%;
 	display: flex;
 	flex-wrap: wrap;
+	padding-left: 48px;
 }
 .detail {
 	width: 70%;
+	padding-right: 24px;
+}
+.cover {
+	width: 30%;
+}
+.cover img {
+	width: 100%;
+	max-width: 160px;
 }
 
 /**
