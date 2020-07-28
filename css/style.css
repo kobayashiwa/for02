@@ -39,6 +39,7 @@ ul, li {
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 48px;
+	margin-bottom: 48px;
 }
 .detail {
 	width: 70%;
@@ -50,6 +51,32 @@ ul, li {
 .cover img {
 	width: 100%;
 	max-width: 160px;
+	border-radius: 4px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 16px;
+}
+.List-item p {
+	font-size: 14px;
+	line-height: 1.5;
+	color: #7E838B;
+}
+@media (max-width: 1000px) {
+	.list {
+		margin-left: -32px;		
+	}
+	.List-item {
+		padding-left: 32px;
+	}
+	.detail {
+		padding-right: 16px;
+	}
+	h3 {
+		font-size: 16px;
+		margin-bottom: 8px;
+	}
 }
 
 /**
@@ -58,10 +85,7 @@ ul, li {
 
 
 
-.header-left .search {
-	padding-right: 16px;
-	height: 16px;
-}
+
 .header-left .search img {
 	height: 100%;
 }
